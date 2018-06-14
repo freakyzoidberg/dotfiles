@@ -7,13 +7,12 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle pip
 antigen bundle lein
-antigen bundle command-not-found
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme robbyrussell
+antigen theme sunaku
 
 # Tell Antigen that you're done.
 antigen apply
@@ -28,3 +27,4 @@ if [ -f '/Users/zoidberg/Documents/Utilities/google-cloud-sdk/path.zsh.inc' ]; t
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/zoidberg/Documents/Utilities/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/zoidberg/Documents/Utilities/google-cloud-sdk/completion.zsh.inc'; fi
+
